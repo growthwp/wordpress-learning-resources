@@ -66,18 +66,18 @@ While WordPress' REST API, both its default and most vendors' endpoints are simp
 - Versioning. When it comes to REST APIs, you might want to keep a legacy API/endpoint going, while providing better endpoints using a new version.
 - GraphQL is irrelevant, as it's not used by virtually anyone within WordPress, but it's a good concept to know about and how it differs. I don't think any project big enough to warrant the usage of GraphQL will be written in WordPress, but alas, it's good to see what problems it's trying to solve.
 
-# WordPress' AJAX
+## WordPress' AJAX
 While the REST API is here and supported in the core, it's often overkill and not indicated to create an endpoint for everything. WordPress' AJAX system is simply just a `POST/GET` request to the back-end, you should:
 - Know about the referer parameter.
 - Know about the (performance) limitations of AJAX within WordPress, bonus points if you learn about how to properly short-circuit it and what's causing it (the loading of all WordPress resources on each request), but this is not something you'll do unless you really need to.
 
-# Post Meta
+## Post Meta
 You should be familiar with what a post's meta is. Know that, while it's just *ahem*, "metadata", it can serve to build complex relationships between posts, relationships which can be queried. You should be able to talk about when it's better to just query a `$post` object, an idea about how to build relationships and why metadata doesn't replace the database itself (and, well, when should a meta key/value pair should be in the database). You don't have to know all this, but it's expected of WordPress juniors to at least have a grasp on the topic of databases/meta and how they can (and won't) work together.
 
-# The `WP_Query` Object/`get_post` function.
+## The `WP_Query` class/`get_post` function.
 Retrieving posts is at the core of nearly everything you display on a WordPress site - you want to retrieve (a) number of posts that have this key, that are from this category and so on. You should be able to use the class/function with relative ease.
 
-# Understanding SQL Queries, `$wpdb`
+## Understanding SQL Queries, `$wpdb`
 While you don't need to go into too many specifics, you should know that any query which has user input needs to be cleaned, as such, look to functions such as `prepare`, `get_results` and so on. You don't need to go hardcore. Bonus points if you know which functions automatically clean input.
 
 Please know what is validation/sanitization.
