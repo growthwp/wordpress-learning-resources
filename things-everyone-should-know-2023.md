@@ -88,6 +88,8 @@ Bonus points if you know about ORMs.
 
 In the last section, we talked about understanding SQL queries and the `$wpdb` object, but you also need to have a decent grasp on how a database functions, what primary keys are and so on. Basic stuff, just to understand how things tie together and how you can add your own fields. This is usually done by the most senior person within the project, but changes that warrant database updates tend to come from a lot of people writing a lot of code. You should know enough to know when to pester for a database update or if you can do your work with already-existing data.
 
+---
+
 This is what seems to currently be the "minimum amount of knowledge for a junior WordPress developer", based on analysis of hundreds of plugins/themes - big and small, private and public.
 
 While some good years ago you could've gotten away with just knowing how to piece things together with `post_meta` and some other stuff, nowadays, it (thankfully) seems that the PHP eco-system, together with WordPress', have evolved drastically.
