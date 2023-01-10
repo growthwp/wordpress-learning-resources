@@ -6,7 +6,7 @@ I chose not to include things such as 3rd-party plugins, because, when it comes 
 
 ---
 
-_To note, these are tools/paradigms that one should irrespective of their seniority._
+_To note, these are tools/paradigms that one should know irrespective of their seniority._
 
 ## Tooling
 
